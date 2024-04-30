@@ -158,6 +158,7 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #.idea/
 =======
 #.idea/
@@ -166,3 +167,6 @@ IMDB Dataset.csv
 IMDB_Dataset_tratado_lemma.csv
 IMDB_Dataset_tratado_sem_lemma.csv
 sentiment_classifier_en_49500_reviews.pth
+=======
+#.idea/
+>>>>>>> 2a75f47411150c52f0874c86528c6c0580072f62
