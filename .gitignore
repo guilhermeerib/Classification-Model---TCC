@@ -1,7 +1,7 @@
 **/.venv/
 **/data/
-**.csv
 /saved_models/
-/webscrapper/.venv
-*.pth
-*
+
+**.csv
+**.pth
+**.bin
