@@ -1,7 +1,5 @@
 # Pastas
 **/.venv/
-**/data/
-/saved_models/
 
 # files
 **.csv
