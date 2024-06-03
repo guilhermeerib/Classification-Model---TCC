@@ -1,5 +1,7 @@
 # Pastas
 **/.venv/
+**/ROBERTA/
+/sa
 
 # files
 **.csv

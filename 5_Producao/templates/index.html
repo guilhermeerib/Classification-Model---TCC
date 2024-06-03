@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment classification</h1>
+        <form action="/predict" method="post">
+            <textarea name="text" rows="5" cols="40" placeholder="Enter text here in English..."></textarea>
+            <br>
+            <button type="submit">Classification</button>
+        </form>
+        {% if prediction %}
+        <div class="result">
+            <h2>Classification Result</h2>
+            <p><strong>Classification:</strong> {{ prediction }}</p>
+            <p><strong>Probability:</strong> {{ probability }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
